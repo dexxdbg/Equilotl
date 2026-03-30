@@ -10,11 +10,10 @@ import (
 	"image/color"
 	"vencord/buildinfo"
 )
-
-const ReleaseUrl = "https://api.github.com/repos/Equicord/Equicord/releases/latest"
-const ReleaseUrlFallback = "https://equicord.org/releases/equicord"
-const InstallerReleaseUrl = "https://api.github.com/repos/Equicord/Equilotl/releases/latest"
-const InstallerReleaseUrlFallback = "https://equicord.org/releases/equilotl"
+const ReleaseUrl = "https://api.github.com/repos/dexxdbg/EquiMyCord/releases/latest"
+const ReleaseUrlFallback = "https://api.github.com/repos/dexxdbg/EquiMyCord/releases/latest"
+const InstallerReleaseUrl = "https://api.github.com/repos/dexxdbg/Equilotl/releases/latest"
+const InstallerReleaseUrlFallback = "https://api.github.com/repos/dexxdbg/Equilotl/releases/latest"
 
 var UserAgent = "Equilotl/" + buildinfo.InstallerGitHash + " (https://github.com/Equicord/Equilotl)"
 
